@@ -1,0 +1,14 @@
+.descriptionPage{
+    width: 100%;
+    height: 100%;
+    padding-left: 26%;
+}
+.descriptionCardMovies{
+    width: 43%;
+    align-items: center;
+    text-align: center;
+}
+.descriptionImg{
+    width: 90%;
+    height: 500px;
+}

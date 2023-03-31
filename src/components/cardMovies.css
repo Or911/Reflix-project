@@ -8,19 +8,15 @@
     align-items: center;
     justify-content: center;
 }
-.cardMovies > img{
+.imgCardMovies{
     width: 95%;
     height: 95%;
     border-radius: 10px;
 }
 .buttonSelect{
-    display: block;
-    background-color: white;
-    width: 30px;
-    text-align: center;
     border-radius: 50%;
-    font-size:xx-large;
+    color: white;
     position: absolute;
-    bottom: 20px;
-    left: 15px;
+    bottom: 15px;
+    right: 15px;
 }
