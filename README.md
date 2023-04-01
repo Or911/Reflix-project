@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# REFLIX project in  React 
+
+![image](https://user-images.githubusercontent.com/110628454/229313530-c699f4db-f349-4e6b-8d91-4ff0ede7604f.png)
+
+
+![image](https://user-images.githubusercontent.com/110628454/229313559-f997becf-e424-4eeb-bafa-fb629d2be1d7.png)
+
+
+![image](https://user-images.githubusercontent.com/110628454/229313573-5e7bf762-2dfd-4cd9-97f7-de64697671c7.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
