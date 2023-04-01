@@ -10,7 +10,7 @@ export default function Landing({eventonclick}){
     ]
     return(
         <div className='landingPage'>
-            <h1>WHO'S WATCHING ?</h1>
+            <h2>WHO'S WATCHING ?</h2>
             <div className="usersContainer">
               { users.map((user , index)=> <CardUser key={index} user={user} eventonclick={eventonclick}/> )}  
             </div>

@@ -2,10 +2,13 @@
   padding-top: 150px;
   align-items: center;
 }
-.landingPage h1 {
+.landingPage h2 {
   text-align: center;
+  color: aliceblue;
+  font-size: 36px;
 }
 .usersContainer {
+  padding-left: 5%;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }

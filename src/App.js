@@ -5,6 +5,7 @@ import Landing from './page/Landing';
 import Catalog from './page/Catalog';
 import NavBar from './components/NavBar';
 import DescriptionMovie from './page/DescriptionMovie';
+import Background from './components/Background';
 
 
 
@@ -59,6 +60,7 @@ function App() {
 
   return (
     <Router>
+      <Background/>
       <NavBar user={users.usersData[users.userConnected]}/>
       <Routes>
         <Route path="/" element={<Landing eventonclick={selectUser}/>} />

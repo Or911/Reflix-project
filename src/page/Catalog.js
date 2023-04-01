@@ -19,17 +19,17 @@ export default function Catalog(props) {
   }
 
   return (
-    <>
+    <div className="catalog">
       <SearchBar searchMovie={filterMovies} />
-      <h5>Rented:</h5>
-      <div className="catalogSection">
+      <h1>Rented:</h1>
+      <div className="rentedSection">
         {rentedMovies().map((movieID, i) => (<CardMovie key={i} movie={MOVIES[movieID]} add={true} deleteMovie={props.deleteMovie} /> ))}
       </div>
-      <h5>Catalog:</h5>
+      <h1>Catalog:</h1>
       <div className="catalogSection">
         {moviesIDByFilter.map((m, i) => (
           <CardMovie key={i} movie={MOVIES[m]} addMovie={props.addMovie} />
         ))}
       </div>
-    </>
+    </div>
   )}

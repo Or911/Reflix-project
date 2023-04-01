@@ -1,12 +1,55 @@
+.background{
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #fff url(/src/img/background.png) center bottom/cover no-repeat;
+  position: fixed;
+}
 .navBar{
+  z-index: 1;
+  position: fixed;
   display: grid;
-  grid-template-columns: 6fr 1fr ;
+  grid-template-columns: 3fr 13fr 1fr 1fr ;
+  padding-top: 5px;
+  background-image: linear-gradient(315deg, #136692 0%, #17144aa5 80%);
 }
-.userName{
-  margin: 2px;
-  margin-bottom: 10px;
-}
+
 .catalogSection{
   display: grid;
   grid-template-columns:auto auto auto auto;
+  background-image: linear-gradient(315deg, #39372ea6 0%, #000000a5 80%);
+
+}
+.catalog{
+  padding-top: 100px
+}
+.rentedSection{
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  background-image: linear-gradient(315deg, #39372ea6 0%, #000000a5 80%);
+}
+h1{
+  color: #d3d6db;
+  background-image: linear-gradient(315deg, #136692 0%, #17144aa5 80%);
+  margin-bottom: 0;
+}
+.reflixName{
+  text-align: center;
+  text-shadow: 7px -3px 3px #6e7a8b;
+  color: #d3d6db;
+  font-size:60px;
+}
+.X{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttonBar{
+  margin: 4px;
+}
+.inputColor{
+  background-color: #d3d6db;
+  display: inline;
+  padding: 2px 10px 10px 2px;
+  border-radius: 5px;
+  margin-left: 30px;
 }

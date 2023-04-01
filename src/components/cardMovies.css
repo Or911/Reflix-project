@@ -1,12 +1,19 @@
+.sizeCardsMovies{
+    width: 220px;
+    height:270px
+}
 .cardMovies{
-    width: 300px;
-    height: 350px;
+    width: 200px;
+    height: 250px;
     position: relative;
     background-color: black;
     margin: 5px;
     border-radius: 10px;
-    align-items: center;
-    justify-content: center;
+    padding: 8px 0 0 8px;
+}
+.cardMovies:hover{
+    width: 220px;
+    height:270px
 }
 .imgCardMovies{
     width: 95%;

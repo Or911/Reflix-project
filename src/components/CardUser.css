@@ -1,8 +1,13 @@
 .userCard{
-    background-color: aqua;
+    background-image: linear-gradient(315deg, #39372e 0%, #000000a5 80%);
     height: 100px;
     width: 150px;
     margin: 10px;
     text-align: center;
     border-radius: 5px;
+    color:white ;
+    padding-top: 20px;
+}
+.nameUser{
+    margin-top: 0;
 }
